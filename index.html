@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="container">
+    <header class="container header-class">
       <a href="index.html"
         ><img src="img/apartment-logo.svg" alt="apartment-logo"
       /></a>
@@ -22,7 +22,98 @@
       </nav>
       <button class="header-button">Sell Something</button>
     </header>
-    <main></main>
+    <main class="container main-section">
+      <form class="filter-card">
+        <div class="filter-card-location">
+          <h3>Location</h3>
+          <select name="city" class="select-city">
+            <option value="default">All Kenya</option>
+            <option value="nairobi">Nairoby</option>
+            <option value="mombasa">Mombasa</option>
+            <option value="kajiado">Kajiado</option>
+            <option value="namanga">Namanga</option>
+          </select>
+        </div>
+        <div class="filter-card-property">
+          <h3>Property</h3>
+          <label
+            ><input type="checkbox" /> Houses & Apartments for Rent
+            <span class="ads-count">| 9548</span></label
+          >
+          <label
+            ><input type="checkbox" checked /> Houses & Apartments for Sale
+            <span class="ads-count">| 9548</span></label
+          >
+          <label
+            ><input type="checkbox" checked /> Land & Plots for Rent
+            <span class="ads-count">| 9548</span></label
+          >
+          <label
+            ><input type="checkbox" /> Land & Plots for Sale
+            <span class="ads-count">| 9548</span></label
+          >
+          <label
+            ><input type="checkbox" /> Commercial Property for Rent
+            <span class="ads-count">| 9548</span></label
+          >
+          <label
+            ><input type="checkbox" /> Commercial Property for Sale
+            <span class="ads-count">| 9548</span></label
+          >
+          <label
+            ><input type="checkbox" checked /> Event Centres, Venues & Worksta
+            <span class="ads-count">| 9548</span></label
+          >
+          <label
+            ><input type="checkbox" /> Short Let Property
+            <span class="ads-count">| 9548</span></label
+          >
+          <label
+            ><input type="checkbox" />Land & Plots for Sale
+            <span class="ads-count">| 9548</span></label
+          >
+          <label
+            ><input type="checkbox" /> Commercial Property for Rent
+            <span class="ads-count">| 9548</span></label
+          >
+        </div>
+        <div class="filter-card-price-range">
+          <h3>Price range</h3>
+          <label
+            ><input type="checkbox" /> Under 13 K •
+            <span class="ads-count">2183 ads</span></label
+          >
+          <label
+            ><input type="checkbox" checked /> 13 – 160 K •
+            <span class="ads-count">2183 ads</span></label
+          >
+          <label
+            ><input type="checkbox" checked /> 160 K – 6 M •
+            <span class="ads-count">2183 ads</span></label
+          >
+          <label
+            ><input type="checkbox" /> 6 – 55 M •
+            <span class="ads-count">2183 ads</span></label
+          >
+          <label
+            ><input type="checkbox" /> 6 – 55 M •
+            <span class="ads-count">2183 ads</span></label
+          >
+        </div>
+      </form>
+      <div class="main-search">
+        <h1>Find the house you want easily</h1>
+        <p class="para-main">Buy, sell, rent or lease on just one platform</p>
+        <div class="search-div">
+          <input type="text" placeholder="Search..." class="search-input" />
+          <img
+            src="img/search-icon.svg"
+            alt="search-icon"
+            class="search-icon"
+          />
+        </div>
+      </div>
+    </main>
     <section></section>
     <footer></footer>
   </body>

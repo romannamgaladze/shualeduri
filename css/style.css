@@ -1,5 +1,6 @@
 body {
   padding: 0 20px;
+  background: rgba(242, 242, 242, 1);
 }
 .container {
   max-width: 1640px;
@@ -9,10 +10,11 @@ body {
 
 /* ......HEADER....... */
 
-header {
+.header-class {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 40px;
 }
 .header-ul {
   display: flex;
@@ -48,4 +50,103 @@ header {
   font-weight: 400;
   padding: 13px 26px;
   border-radius: 12px;
+}
+
+/* ..........MAIN............ */
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* ........FILTER CARD............... */
+
+.filter-card {
+  background-color: #f8f8f8;
+  width: 395px;
+  min-width: 333px;
+  min-height: 700px;
+  border: 1px;
+  border-radius: 24px;
+  padding: 32px 32px 38px 32px;
+  box-shadow: 0px 4px 25px 0px #c2c2c24f;
+}
+.filter-card-location {
+  margin-bottom: 32px;
+}
+h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+select {
+  width: 100%;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid #0d9ca436;
+  font-size: 14px;
+}
+.filter-card-property {
+  margin-bottom: 32px;
+}
+label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 10px 0;
+  font-weight: 400;
+  font-size: 14px;
+}
+input[type="checkbox"] {
+  accent-color: #009879;
+  border: 1.4px solid #29b24e;
+}
+
+.ads-count {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* .............MAIN-SEARCH................. */
+.main-search {
+  width: 1225px;
+  min-height: 700px;
+  background-image: url(..//img/main-buildings.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 24px;
+  padding-top: 60px;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  margin-bottom: 10px;
+}
+.para-main {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 40px;
+}
+.search-div {
+  width: 324px;
+  height: 48px;
+  position: relative;
+  margin: 0 auto;
+}
+.search-input {
+  width: 100%;
+  padding: 15px 0 15px 24px;
+  border-radius: 10px;
+  background-color: rgba(248, 248, 248, 0.8);
+  box-shadow: 0px 4px 10px 0px rgba(124, 124, 124, 0.27);
+  border: none;
+}
+.search-icon {
+  position: absolute;
+  top: 14px;
+  right: 15px;
 }
