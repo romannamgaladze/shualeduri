@@ -48,4 +48,21 @@
   .trending-ads-grid-container {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
+
+  /* .............FOOTER............. */
+  .footer-email {
+    display: none;
+  }
+  .footer-links {
+    display: block;
+  }
+  .footer-socials {
+    display: block;
+  }
+  .footer-li-items {
+    margin-bottom: 16px;
+  }
+  footer {
+    padding: 40px 20px;
+  }
 }

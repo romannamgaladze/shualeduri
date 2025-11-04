@@ -275,7 +275,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 25px;
 }
 .footer-li-items-links {
   color: #ffffff;
@@ -291,7 +291,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 25px;
 }
 .footer-li-items-socials {
   color: #ffffff;
