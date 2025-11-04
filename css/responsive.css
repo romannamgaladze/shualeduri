@@ -64,5 +64,48 @@
   }
   footer {
     padding: 40px 20px;
+    margin-bottom: 156px;
+  }
+  .body {
+    position: relative;
+  }
+  .mobile-nav-section {
+    display: block;
+    width: 100%;
+    height: 72px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px 0px #00000040;
+    border-radius: 24px 24px 0 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 12px 20px 15px 20px;
+    font-weight: 500;
+    font-size: 11px;
+  }
+
+  .mobile-nav-sticky {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mobile-nav-divs {
+    text-align: center;
+  }
+  .mobile-nav-divs a {
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .mobile-nav-divs p {
+    margin-top: 5px;
+  }
+  .sell-button {
+    background-color: #29b24e;
+    border-radius: 12px;
+    padding: 12px;
+    position: absolute;
+    bottom: 28px;
+    left: 44%;
   }
 }
