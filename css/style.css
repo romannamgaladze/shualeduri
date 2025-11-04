@@ -170,12 +170,12 @@ h2 {
   transition: 0.5s ease-in;
 }
 .card-anchors:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 .trending-ads-grid-container {
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(395px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
 }
 .trending-cards {
   width: 100%;
