@@ -159,7 +159,7 @@ h1 {
 
 /* ...........TRADING ADS SECTION........... */
 h2 {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 550;
   color: #000000;
   margin-bottom: 20px;
@@ -311,4 +311,152 @@ footer {
 }
 .mobile-nav-section {
   display: none;
+}
+
+/* .............ABOUT PAGE.........; */
+
+.main-house {
+  max-width: 810px;
+  min-height: 732px;
+  border-radius: 24px;
+}
+.house-description {
+  width: 786px;
+  min-height: 700px;
+  border-radius: 24px;
+  background-color: #f8f8f8;
+  box-shadow: 0px 4px 18px 0px #c2c2c24d;
+  padding: 30px 40px;
+}
+.house-picture {
+  max-width: 100%;
+  height: 732px;
+  border-radius: 24px;
+  border: 1px;
+}
+.vip-top-about {
+  display: inline-block;
+  background-color: #29b24e;
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 8px 11px;
+}
+.div-description-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 5px;
+  margin-bottom: 24px;
+}
+.div-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.para-description-top {
+  font-size: 12px;
+  opacity: 0.6;
+  font-weight: 500;
+}
+h5 {
+  font-size: 22px;
+  font-weight: 600;
+  opacity: 0.9;
+  margin-bottom: 15px;
+}
+.para-location {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.6;
+  margin-bottom: 32px;
+}
+.para-para {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  opacity: 0.8;
+  margin-bottom: 40px;
+}
+.about-div-line {
+  width: 100%;
+  height: 2px;
+  background-color: #ececec;
+}
+.para-features {
+  display: inline-block;
+  margin-right: 24px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.div-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0;
+  gap: 5px;
+}
+h6 {
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.6;
+  margin-bottom: 5px;
+}
+.list-item {
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.list-item-end {
+  margin-bottom: 16px;
+}
+.div-list-item li {
+  margin-bottom: 10px;
+}
+.div-description-bottom {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.card-price-about {
+  font-size: 36px;
+  font-weight: 600;
+  color: #29b24e;
+}
+.card-month-about {
+  font-size: 16px;
+  font-weight: 400;
+}
+.msg-call-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.button-sent-message {
+  padding: 13px 26px;
+  color: #29b24e;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid #29b24e;
+  border-radius: 12px;
+  background-color: transparent;
+}
+.button-call {
+  padding: 13px 26px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #29b24e;
+  border-radius: 12px;
 }

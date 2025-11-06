@@ -112,6 +112,11 @@
     padding: 12px;
     margin-bottom: 5px;
   }
+
+  /* .........ABOUT PAGE.......... */
+  .about-page-main {
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 500px) {
   .div-sell-button {
